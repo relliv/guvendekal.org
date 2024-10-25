@@ -53,6 +53,8 @@ Bu şekilde, modem/router üzerinden yapılan DNS değişiklikleri ile ağa bağ
 
 !> Modem arayüzündeki veya internet sağlayıcınızın size verdiği müşteri panelindeki **güvenli internet** ayarları açık ise bu DNS değişikliklerini engelleyebilir. Güvenli interneti kapatmayı deneyebilirsiniz ancak modeme bağlanan diğer kişileri de etkileyebileceğini unutmayın (*örn: çocuklar için sağlanan faydalı özellikler güvenli internete bağlı olabilir*).
 
+!> İnternet servis sağlayıcınızın verdiği bir modemi kullanıyorsanız ve DNS değiştirme ayarlarını göremiyorsanız belkide servis sağlayıcınız bu ayarları arayüzden kısıtlamış/gizlemiş olabilir. Bu durumda farklı bir modem ile denemeniz gerekebilir.
+
 ## DNS sunucusu testi
 
 DNS değişikliklerinin düzgün çalıştığından emin olmak için [dnsleaktest.org](https://dnsleaktest.org/dns-leak-test) adresinden kontrol edebilirsiniz. Test sonucunda ISP sütununda eğer girdğiniz DNS sağlayıcısının adı çıkıyorsa DNS değişikliğiniz başarılı olmuş demektir.
